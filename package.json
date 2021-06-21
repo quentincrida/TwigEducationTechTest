@@ -1,0 +1,14 @@
+{
+  "name": "twigeducationtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arraySplit.js",
+  "scripts": {
+    "test": "mocha arraySplit_spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.0.1"
+  }
+}

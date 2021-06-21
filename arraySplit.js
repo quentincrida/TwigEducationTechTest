@@ -13,9 +13,10 @@ const arraySplit = function(arr, size) {
     //push the result to a new empty array, using slice() method to create nested arrays
     result.push(arr.slice(i, i + size));
   }
-  //return the new array of sub arrays
+  //return the new array of nested
   return result;
 }
 
+console.log(arraySplit([100, 2,4,16, 20, 987], 9));
 
 module.exports = arraySplit;
